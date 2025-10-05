@@ -33,6 +33,7 @@ The app integrates **Supabase** (for storing user data & alerts) and the **WAQI 
 
 ## 📂 Project Structure
 
+```bash
 air-quality-monitoring/
 │── .env # API keys & DB credentials (DO NOT COMMIT)
 │── requirements.txt # Python dependencies
@@ -50,3 +51,4 @@ air-quality-monitoring/
 ├── services/ # Business logic (API, alerts, users)
 ├── utils/ # Plotting, thresholds
 └── config/ # Supabase & app settings
+```
